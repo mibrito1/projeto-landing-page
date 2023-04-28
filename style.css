@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -29,11 +30,9 @@ body {
     align-items: center;
     justify-content: center;
     width: 30%;
- 
     font-family: 'Carrois Gothic';
     font-size: 20px;
     color: rgb(17, 22, 29);
-
 }
 
 a {
@@ -48,12 +47,10 @@ a {
     align-items: center;
     justify-content: center;
     width: 30%;
-
     border: none;
     font-family: 'Carrois Gothic';
     font-size: 20px;
     color: rgb(17, 22, 29);
-
 }
 
 .menu-item2 {
@@ -65,11 +62,9 @@ a {
     width: 30%;
     padding: 15px;
     border: none;
-
     font-family: 'Carrois Gothic';
     font-size: 20px;
     color: rgb(17, 22, 29);
-
 }
 
 .logo {
@@ -82,39 +77,58 @@ a {
 .menu-cabecalho {
     display: flex;
     justify-content: space-evenly;
-
 }
 
 main {}
 
-.sessao-apresentaçao {
-    width: 100%;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 2fr 1fr;
-    justify-items: stretch;
-    align-items: stretch;
 
-
+.sessao-apresentaçao{
+    display: flex;
 }
+
+
 
 .quadro-texto-lateral {
     display: flex;
     background-color: rgba(59, 79, 102, 1);
-    padding: 10px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: stretch;
+    justify-items: stretch;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 100px;
+
 
 }
+.texto-lateral-titulo {
+    width: 292px;
+    height: 144px;
+    left: 1248px;
+    top: 167px;   
+    font-family: 'Carrois Gothic';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;   
+    color: #CCD3D6;
+    text-shadow: 3px black;
+}
+
 
 .texto-lateral {
-    display: flex;
-    height: 100%;
     font-family: 'Carrois Gothic';
-    font-size: 24px;
-    align-items: stretch;
-    text-align: justify;
-
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    color: #D9D9D9;
+    padding: 20px;
+    margin-bottom: 50px;
 }
-
 
 
 
@@ -425,3 +439,15 @@ form {
 
 
 }
+
+
+/* 
+@media screen and (max-device-width: 900px)
+{
+    .sessao-apresentaçao {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    
+  } */
