@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    background-color: rgba(59, 79, 102, 1);
+}
+
+#conteudo-principal-do-titulo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    background-color: white;
+
+}
+
+.menu-item {
+    display: flex;
+    border-radius: 40px;
+    border: none;
+    background-color: rgba(204, 211, 214, 1);
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+ 
+    font-family: 'Carrois Gothic';
+    font-size: 20px;
+    color: rgb(17, 22, 29);
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(17, 22, 29);
+}
+
+.menu-item1 {
+    display: flex;
+    border-radius: 40px;
+    background-color: rgba(139, 188, 111, 1);
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+
+    border: none;
+    font-family: 'Carrois Gothic';
+    font-size: 20px;
+    color: rgb(17, 22, 29);
+
+}
+
+.menu-item2 {
+    display: flex;
+    border-radius: 50px;
+    background-color: rgba(124, 154, 131, 1);
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 15px;
+    border: none;
+
+    font-family: 'Carrois Gothic';
+    font-size: 20px;
+    color: rgb(17, 22, 29);
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: rgba(59, 79, 102, 1);
+}
+
+.menu-cabecalho {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+main {}
+
+.sessao-apresentaçao {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+
+
+}
+
+.quadro-texto-lateral {
+    display: flex;
+    background-color: rgba(59, 79, 102, 1);
+    padding: 10px;
+
+}
+
+.texto-lateral {
+    display: flex;
+    height: 100%;
+    font-family: 'Carrois Gothic';
+    font-size: 24px;
+    align-items: stretch;
+    text-align: justify;
+
+}
+
+
+
+
+#seguros {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    background-color: white;
+    font-family: 'Carrois Gothic';
+    font-size: 20px;
+
+    text-align: center;
+
+}
+
+.auto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+
+
+}
+
+.vida {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+
+}
+
+.h-seguro {
+    font-size: 20px;
+}
+
+
+
+.botao {
+    display: flex;
+    border-radius: 40px;
+    background-color: rgba(124, 154, 131, 1);
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+    font-family: 'Carrois Gothic';
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    color: white;
+
+
+
+}
+
+.sessao-das-coberturas {}
+
+.texto1 {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    padding: 20px;
+    gap: 15px;
+
+}
+
+#cobertura1 {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    background-size: cover;
+    background-image: url("./material/imagens e icones/pexels-dastan-khdir-12613341 1.png");
+
+}
+
+.homemdamontanha {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    height: 75%;
+    opacity: 0.5;
+
+}
+
+.h-cobertura-vida {
+    font-family: 'Carrois Gothic';
+    font-size: 24px;
+}
+
+.p-cobertura-vida {
+    font-family: 'Carrois Gothic';
+    font-size: 18px;
+}
+
+#cobertura2 {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    background-size: cover;
+    background-image: url("./material/imagens e icones/pexels-dastan-khdir-12613341 2.png");
+    justify-content: flex-end;
+}
+
+.carroparado {
+    display: flex;
+    align-items: center;
+
+    background-color: white;
+    width: 50%;
+    height: 75%;
+    opacity: 0.5;
+
+
+}
+
+.texto2 {
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    padding: 20px;
+    gap: 15px;
+
+}
+
+.h-cobertura-auto {
+    font-family: 'Carrois Gothic';
+    font-size: 24px;
+    color: black;
+}
+
+.p-cobertura-auto {
+    font-family: 'Carrois Gothic';
+    font-size: 18px;
+    color: black;
+}
+
+
+.sessao-das-figurinhas {
+
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+    background-color: white;
+    font-family: 'Carrois Gothic';
+    font-size: 16px;
+    text-align: center;
+    gap: 50px;
+
+}
+
+.figuras1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+
+}
+
+.figuras2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+
+}
+
+.figuras3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+
+}
+
+#sessao-do-formulario {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+    align-items: start;
+    background-image: url("./material/imagens e icones/cavalo.png");
+    padding-bottom: 100px;
+
+
+}
+
+.div-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 100px;
+
+    margin-top: 140px;
+
+}
+
+.texto-do-formulario {
+    font-family: 'Carrois Gothic';
+    font-size: 35px;
+    color: white;
+}
+
+.texto-do-formulario2 {
+    font-family: 'Carrois Gothic';
+    font-size: 24px;
+    color: white;
+}
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+    gap: 8px;
+    font-family: 'Carrois Gothic';
+    color: white;
+    font-size: 18px;
+
+}
+
+#nome {
+
+    padding-top: 8px;
+}
+
+#email {
+    padding-top: 8px;
+}
+
+#area {
+    padding-top: 8px;
+}
+
+.botaosubmit {
+    padding: 4px;
+    display: flex;
+    align-self: center;
+}
+
+.redesocial {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    font-family: 'Carrois Gothic';
+    color: white;
+    font-size: 15px;
+    padding: 50px;
+}
+
+
+#sessao-dos-icones {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    background-color: white;
+    font-family: 'Carrois Gothic';
+    font-size: 18px;
+    text-align: center;
+    gap: 50px;
+    align-items: baseline;
+
+}
+
+.icones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgba(59, 79, 102, 1);
+    padding: 30px;
+    font-family: 'Carrois Gothic';
+    font-size: 16px;
+    text-align: start;
+
+}
+
+.botaodofim {
+    padding: 4px;
+    border-radius: 10px;
+
+
+}
