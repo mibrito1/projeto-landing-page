@@ -17,7 +17,7 @@ form.addEventListener("submit",function(event){
     event.preventDefault()
 
 nome.value= ""
-sex.value=" "
+sex.value=""
 area.value=""
 email.value=""
 })
