@@ -131,6 +131,6 @@ A sua Landing Page deve conter:
 5.  Envie o link do seu PR e do surge no [formulário de entrega](https://forms.gle/nrh5KpDhAMwXBjC29).
 
 
-link do projeto finalizado:
+### Link do projeto finalizado ⏬
+http://unsightly-drain.surge.sh/
 
-(http://unsightly-drain.surge.sh/)
